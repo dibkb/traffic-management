@@ -1,8 +1,9 @@
+import Image from "next/image";
 export default function Login() {
   const content = (
     <section className="h-[100vh] flex justify-center">
       <div className="w-fit">
-        <form className="rounded px-8 pt-6 pb-8 mb-4 mt-[50%]">
+        <form className="rounded px-8 pt-6 pb-8 mb-4 mt-[30%]">
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
