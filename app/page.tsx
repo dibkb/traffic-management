@@ -1,14 +1,31 @@
+import Name from "@/public/src/Name";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-[600px] flex-col gap-6">
+    <main className="flex items-center w-[600px] mx-auto justify-center min-h-[600px] flex-col gap-6">
       <h3 className="text-4xl mt-4">Traffic Management System</h3>
+      <h3 className="text-2xl my-4">Group 7</h3>
       <Image
         src="https://iiitl.ac.in/wp-content/uploads/2019/10/Final_Logo_IIITL.png"
         alt="iiitl logo"
         width={150}
         height={150}
       />
+      <main className="flex items-center flex-col gap-4 w-full">
+        <Name name={"Dibas Borborah"} roll={"MSA23019"} />
+        <Name name={"Nishant"} roll={"MSA23010"} />
+        <Name name={"Nishant"} roll={"MSA23010"} />
+        <Name name={"Nishant"} roll={"MSA23010"} />
+        <Name name={"Nishant"} roll={"MSA23010"} />
+      </main>
+      <section className="flex gap-4">
+        <button className="border px-6 py-1 rounded-md hover:bg-stone-800 hover:text-white">
+          Login
+        </button>
+        <button className="border px-6 py-1 rounded-md hover:bg-stone-800 hover:text-white">
+          Sign up
+        </button>
+      </section>
     </main>
   );
 }
