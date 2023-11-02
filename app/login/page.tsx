@@ -1,7 +1,7 @@
 export default function Login() {
   const content = (
     <section className="h-[100vh] flex justify-center">
-      <div className="w-full w-fit">
+      <div className="w-fit">
         <form className="rounded px-8 pt-6 pb-8 mb-4 mt-[50%]">
           <div className="mb-4">
             <label

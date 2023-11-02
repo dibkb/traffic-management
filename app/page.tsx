@@ -1,5 +1,6 @@
 import Name from "@/public/src/Name";
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex items-center w-[600px] mx-auto justify-center min-h-[600px] flex-col gap-6">
@@ -19,9 +20,12 @@ export default function Home() {
         <Name name={"Nishant"} roll={"MSA23010"} />
       </main>
       <section className="flex gap-4">
-        <button className="border px-6 py-1 rounded-md hover:bg-stone-800 hover:text-white">
+        <Link
+          href={"/login"}
+          className="border px-6 py-1 rounded-md hover:bg-stone-800 hover:text-white"
+        >
           Login
-        </button>
+        </Link>
         <button className="border px-6 py-1 rounded-md hover:bg-stone-800 hover:text-white">
           Sign up
         </button>
